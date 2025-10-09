@@ -32,7 +32,7 @@ $(function () {
 
     // TODO 2 - Create Platforms
      createPlatform(300,500,200,10)
-     createPlatform(700, 700, 200,10)
+     createPlatform(300, 700, 200,10)
      createPlatform(500,600,200,10)
      createPlatform(100,400,200,10)
      createPlatform(300,300,200,10)
@@ -42,9 +42,9 @@ $(function () {
     createCollectable("diamond",400,450)
     
     // TODO 4 - Create Cannons
-   
-
-    
+   createCannon("top",200,700)
+   createCannon("right",300,900)
+  createCannon("bottom",550,800)
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
